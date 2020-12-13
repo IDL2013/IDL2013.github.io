@@ -1,7 +1,0 @@
-name: "Loch Ness Monster tracker"
-navbar:
-        title: "NessieGPS"
-left:
-        - text: "Home"
-href: index.html
-
