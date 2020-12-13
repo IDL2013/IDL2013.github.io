@@ -1,10 +1,13 @@
 
+**NessieGPS**
 
-
-```{r,echo=FALSE}
-Sys.Date()
-
+```{r include=FALSE}
+date <- Sys.Date()
 ```
+
+The Loch Ness Monster (Nessie) was fitted with a GPS tracker on `r date`.
+
+Nessie's current location is: 
 
 ```{r, echo=FALSE}
 library(leaflet)
