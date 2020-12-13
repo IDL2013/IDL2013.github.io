@@ -16,7 +16,7 @@ nessieIcon <- makeIcon(
 
 
 my_map <- leaflet() %>% 
-  addTiles() %>% 
+  addTiles(urlTemplate = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png') %>% 
         addMarkers(lat=57.3229,lng=-4.4244,popup="Loch Ness monster (Nessie)", icon=nessieIcon)
 my_map
 ```
